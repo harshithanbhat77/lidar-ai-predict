@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+outputs/*.json
+outputs/*.onnx
+models/*.pth
+data/sample/*.bin

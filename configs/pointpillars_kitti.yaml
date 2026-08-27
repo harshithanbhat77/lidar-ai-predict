@@ -1,0 +1,13 @@
+# This repository expects a KITTI-compatible PointPillars configuration file.
+# Replace this stub with the exact config that matches your installed OpenPCDet
+# version and pretrained checkpoint.
+CLASS_NAMES:
+  - Car
+  - Pedestrian
+  - Cyclist
+
+MODEL:
+  NAME: PointPillars
+
+DATA_CONFIG:
+  DATASET: KittiDataset
